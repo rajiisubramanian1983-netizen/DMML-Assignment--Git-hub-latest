@@ -1,0 +1,5 @@
+outs:
+- md5: ac9330f6bc9be78704413fb0b4c2183e
+  size: 12271
+  hash: md5
+  path: products_200250.json

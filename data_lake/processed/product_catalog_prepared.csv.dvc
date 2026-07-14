@@ -1,0 +1,5 @@
+outs:
+- md5: 3aaa37bd1cb4e3aa9daaa17cec5e73c8
+  size: 10389
+  hash: md5
+  path: product_catalog_prepared.csv

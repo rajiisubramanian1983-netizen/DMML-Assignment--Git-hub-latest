@@ -1,0 +1,5 @@
+outs:
+- md5: 1357fb429bffc6f261084d3fed6a70ea
+  size: 84861074
+  hash: md5
+  path: clickstream_transactions_prepared.csv

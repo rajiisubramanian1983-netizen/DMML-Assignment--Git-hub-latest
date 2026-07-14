@@ -1,0 +1,31 @@
+# ============================================
+# RecoMart Pipeline Configuration
+# Centralizes paths and settings used across ingestion scripts,
+# so destinations can be changed without editing script code.
+# ============================================
+
+project:
+  base_path: "D:\\M.Tech\\Second Sem\\Data Management ML\\Assignment\\recomart_pipeline"
+
+paths:
+  data_lake_raw_batch: "data_lake\\raw\\batch\\clickstream_transactions"
+  data_lake_raw_streaming: "data_lake\\raw\\streaming\\product_catalog"
+  data_lake_processed: "data_lake\\processed"
+  logs: "logs"
+  ingestion_scripts: "ingestion"
+
+sources:
+  kaggle:
+    source_file: "2019-Oct.csv"
+    source_path: "D:\\M.Tech\\Second Sem\\Data Management ML\\Assignment\\2019-Oct.csv\\2019-Oct.csv"
+    type: "batch"
+
+  fakestore_api:
+    url: "https://fakestoreapi.com/products"
+    type: "streaming"
+    poll_interval_seconds: 60
+
+ingestion:
+  retries: 3
+  retry_delay_seconds: 5
+  timeout_seconds: 10

@@ -1,0 +1,5 @@
+outs:
+- md5: 20d3f8c41775f86413afc78d8d20dc9e
+  size: 2472
+  hash: md5
+  path: product_catalog.csv
