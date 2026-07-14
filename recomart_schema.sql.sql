@@ -1,4 +1,3 @@
-
 CREATE TABLE user_features (
     user_id BIGINT PRIMARY KEY,
     user_activity_count INT NOT NULL,
