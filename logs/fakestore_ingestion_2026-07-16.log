@@ -1,0 +1,3 @@
+2026-07-16 15:33:40,409 - INFO - Logging initialized for FakeStoreAPI ingestion.
+2026-07-16 15:33:47,680 - INFO - Attempt 1: Calling https://fakestoreapi.com/products
+2026-07-16 15:34:08,078 - INFO - SUCCESS: 20 products saved to D:\M.Tech\Second Sem\Data Management ML\Assignment\recomart_pipeline\data_lake\raw\streaming\product_catalog\ingestion_date=2026-07-16\products_153347.json

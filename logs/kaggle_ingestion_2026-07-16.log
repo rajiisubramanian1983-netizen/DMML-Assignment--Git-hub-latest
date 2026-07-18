@@ -1,0 +1,7 @@
+2026-07-16 15:32:02,158 - INFO - Logging initialized for Kaggle batch ingestion.
+2026-07-16 15:32:09,113 - INFO - Attempt 1: Starting copy of 2019-Oct.csv
+2026-07-16 15:32:28,159 - INFO - Counting records...
+2026-07-16 15:32:58,042 - INFO - SUCCESS: 2019-Oct.csv copied to D:\M.Tech\Second Sem\Data Management ML\Assignment\recomart_pipeline\data_lake\raw\batch\clickstream_transactions\ingestion_date=2026-07-16\2019-Oct.csv (42,448,764 records)
+2026-07-16 15:33:40,409 - INFO - Logging initialized for FakeStoreAPI ingestion.
+2026-07-16 15:33:47,680 - INFO - Attempt 1: Calling https://fakestoreapi.com/products
+2026-07-16 15:34:08,078 - INFO - SUCCESS: 20 products saved to D:\M.Tech\Second Sem\Data Management ML\Assignment\recomart_pipeline\data_lake\raw\streaming\product_catalog\ingestion_date=2026-07-16\products_153347.json
